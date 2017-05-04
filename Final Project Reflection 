@@ -1,0 +1,34 @@
+
+
+Idea Proposal and Reflection
+
+In big cities, the health inspection results for restaurants are posted in the front window using a grading system.  
+
+In Onondaga county, we don’t have that system.  The only way to find out how clean a kitchen is, is by looking at the NYS government website, https://health.data.ny.gov/Health/Food-Service-Establishment-Last-Inspection/cnih-y5dw, or Syracuse.com does post recent health inspections weekly.
+
+What we did was use the API at the above site to determine what grade the restaurants in Onondaga county should have.  
+
+NYC’s scoring system, https://www1.nyc.gov/assets/doh/downloads/pdf/rii/how-we-score-grade.pdf.  Another helpful article, http://newyork.seriouseats.com/2010/07/a-guide-to-the-new-restaurant-grading-system.html
+
+The process:
+First, import the API.
+Narrow down scope to just Onondaga County
+Next, calculate number of violations.  Maybe critical violations are weighted more. 
+Based on the number of violations, a grade is assigned.
+User is asked to enter the name of a restaurant, program spits out grade.
+
+Reflection:
+As a team, we worked together a lot with guidance from people who were more familiar with this programming language. 
+We used one computer and input all our ideas through jupyter-notebook, as opposed to working remotely through github. 
+This was crucial, because we were able to bounce ideas off of each other and brainstorm through parts of the code. 
+Things worked out well, however we did have a couple of issues with our code when it came to using Try and Except 
+in order to provide a clean error message if the input was typed incorrectly. We noticed that code placement happened 
+to be our biggest issue but we eventually figured it out. This was a very challenging project for us but during the process
+we learned so much and hopefully we can apply it to our future careers. Big thanks to Nick Lyga for dealing with us on slack 
+and the TA’s who helped us and were patient with us. It was a busy past few days, bit we feel satisfied with how the project 
+turned out.  
+
+Our group worked well together to get the project completed.  
+It was fun to actually use what we learned in class in a practical manor.  
+We created a program that is usable to people in the real world which feels good.  
+Overall, we are happy to have gotten this experience and very happy the class is over.
